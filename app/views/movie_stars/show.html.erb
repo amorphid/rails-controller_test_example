@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @movie_star.name %>
+</p>
+
+<p>
+  <strong>Highest grossing film:</strong>
+  <%= @movie_star.highest_grossing_film %>
+</p>
+
+<%= link_to 'Edit', edit_movie_star_path(@movie_star) %> |
+<%= link_to 'Back', movie_stars_path %>
